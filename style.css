@@ -1,4 +1,75 @@
 html {
   height: 100%;
   width: 100%;
+  background-color: #b0e0e6;
+  position: absolute;
+}
+html{
+  font-size: 2.2px;
+}
+
+
+.qr {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  position: relative;
+  transform: translateY(50%);
+  margin: 0 auto;
+  background-color: white;
+  width: 30%;
+  padding: 2% 2% 3% 2%;
+  border: none;
+  border-radius: 2.5%;
+  height: 65%;
+  justify-content: center;
+
+}
+
+.img-holder {
+  display: flex;
+  justify-content: center;
+}
+
+.qrcode {
+  width: 100%;
+  border-radius: 2.5%;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.text h1 {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  font-size: calc(2.8rem + 1vw);
+  color: hsl(218, 44%, 22%);
+  text-align: center;
+  width: 85%;
+  margin: 6% auto 0 auto;
+display: block;
+  width: 90%;
+}
+
+.text p {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: hsl(220, 15%, 55%);
+  text-align: center;
+  width: 85%;
+  margin: 0 auto;
+  font-size: calc(1rem + 1vw);
+}
+
+.clamp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: clamp();
 }
