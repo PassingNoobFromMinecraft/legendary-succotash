@@ -3,6 +3,7 @@ html {
   width: 100%;
   background-color: #b0e0e6;
   position: absolute;
+  overflow: none;
 }
 html{
   font-size: 2.2px;
@@ -64,7 +65,7 @@ display: block;
 
 .clamp{
   height: 100%;
-  width: clamp(5vh, 75%, 150vw );
+  width: clamp(5vh, 75%, 100vw );
   
   position: relative;
   transform: translateX(50%) translateY(17vh);
