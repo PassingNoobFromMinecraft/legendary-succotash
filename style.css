@@ -13,9 +13,6 @@ html{
   display: flex;
   flex-direction: column;
   gap: 2px;
-  position: relative;
-  transform: translateY(50%);
-  margin: 0 auto;
   background-color: white;
   width: 30%;
   padding: 2% 2% 3% 2%;
@@ -58,7 +55,6 @@ display: block;
 .text p {
   font-family: 'Outfit', sans-serif;
   font-weight: 400;
-  font-size: 0.9rem;
   color: hsl(220, 15%, 55%);
   text-align: center;
   width: 85%;
@@ -67,9 +63,10 @@ display: block;
 }
 
 .clamp{
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 100%;
-  width: clamp();
+  width: clamp(5vh, 75%, 150vw );
+  
+  position: relative;
+  transform: translateX(50%) translateY(17vh);
+
 }
